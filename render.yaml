@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: goldex-browser
+    runtime: static
+    rootDirectory: website
+    buildCommand: echo "Static site"
+    staticPublishPath: .
